@@ -20,7 +20,6 @@ services:
     image: negiamit117/selenium-docker
     depends_on:
       - chrome
-      - firefox
     environment:
       - HUB_HOST=hub
       - BROWSER=chrome
