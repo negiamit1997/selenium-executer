@@ -24,4 +24,5 @@ services:
       - HUB_HOST=hub
       - BROWSER=chrome
       - MODULE=testng.xml
-    
+    volumes:
+      - ./output:/D:/eclipseWorkspace/DesignDemo/test-output
